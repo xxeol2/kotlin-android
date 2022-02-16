@@ -7,4 +7,6 @@
     <string name="pw_hint">비밀번호를 입력해주세요</string>
     <string name="sign_up">회원가입</string>
     <string name="login">로그인</string>
+    <string name="name">이름</string>
+    <string name="name_hint">이름을 입력해주세요</string>
 </resources>
