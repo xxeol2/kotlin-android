@@ -80,6 +80,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/shape_bg_edit"
         android:hint="@string/pw_hint"
+        android:inputType="textPassword"
         android:padding="12dp"
         android:textColor="@color/black"
         android:textSize="12sp"
