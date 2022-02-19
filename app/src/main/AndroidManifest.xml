@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstAndroid">
         <activity
-            android:name=".LoginActivity"
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,9 +21,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignUpActivity" />
-        <activity android:name=".ProfileActivity" />
-
+        <activity android:name=".view.SignUpActivity" />
+        <activity android:name=".view.ProfileActivity" />
     </application>
 
 </manifest>

@@ -1,9 +1,8 @@
-package com.example.firstandroid
+package com.example.firstandroid.view
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.firstandroid.databinding.ActivitySignUpBinding
@@ -29,7 +28,6 @@ class SignUpActivity : AppCompatActivity() {
                     putExtra("id", binding.editId.text.toString())
                     putExtra("pw", binding.editPw.text.toString())
                 }
-                Log.d("kangmi", binding.editId.text.toString())
                 setResult(Activity.RESULT_OK, intent)
                 finish()
             }
