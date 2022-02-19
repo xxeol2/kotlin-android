@@ -17,7 +17,27 @@ class ProfileActivity : AppCompatActivity() {
 
     private fun initTransactionEvent() {
         val followerListFragment = FollowerListFragment()
+        val repositoryListFragment = RepositoryListFragment()
+
         supportFragmentManager.beginTransaction().add(R.id.container_list, followerListFragment).commit()
+
+        binding.apply {
+            btnFollower.setOnClickListener {
+                if (position == REPOSITORY_LIST_POSITION) {
+                    val transaction = supportFragmentManager.beginTransaction()
+                    transaction.replace(R.id.container_list, followerListFragment).commit()
+                    position = FOLLOWER_LIST_POSITION
+                }
+            }
+            btnRepository.setOnClickListener{
+                if (position == FOLLOWER_LIST_POSITION) {
+                    val transaction = supportFragmentManager.beginTransaction()
+                    transaction.replace(R.id.container_list, repositoryListFragment).commit()
+                    position = REPOSITORY_LIST_POSITION
+                }
+            }
+        }
+
     }
 
     companion object {
