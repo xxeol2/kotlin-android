@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstAndroid">
         <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
             android:name=".view.LoginActivity"
             android:exported="true">
             <intent-filter>
@@ -23,6 +20,8 @@
         </activity>
         <activity android:name=".view.SignUpActivity" />
         <activity android:name=".view.ProfileActivity" />
+        <activity
+            android:name=".view.DetailActivity"/>
     </application>
 
 </manifest>

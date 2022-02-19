@@ -12,6 +12,5 @@
         android:layout_height="match_parent"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
         app:spanCount="2"
-        tools:listitem="@layout/item_repository_list"
-        android:padding="10dp"/>
+        tools:listitem="@layout/item_repository_list" />
 </androidx.constraintlayout.widget.ConstraintLayout>

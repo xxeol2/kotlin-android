@@ -11,9 +11,10 @@
         <entry key="app/src/main/res/drawable/shape_bg_edit.xml" value="0.212" />
         <entry key="app/src/main/res/drawable/shape_bg_sub_button.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/shape_bg_sub_edit.xml" value="0.1415" />
+        <entry key="app/src/main/res/layout/activity_detail.xml" value="0.18479614257812507" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.5969268798828126" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.27806854248046875" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.27135467529296875" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.2055084228515625" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.13125" />
         <entry key="app/src/main/res/layout/fragment_follower.xml" value="0.15161285400390626" />

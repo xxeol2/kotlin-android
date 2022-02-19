@@ -8,6 +8,7 @@ import com.example.firstandroid.databinding.ItemFollowerListBinding
 
 class FollowerAdapter : RecyclerView.Adapter<FollowerAdapter.FollowerViewHolder>() {
     val userList = mutableListOf<UserData>()
+    private lateinit var itemClickListener: ItemClickListener
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FollowerViewHolder {
         val binding = ItemFollowerListBinding.inflate(
@@ -22,7 +23,7 @@ class FollowerAdapter : RecyclerView.Adapter<FollowerAdapter.FollowerViewHolder>
 
     override fun getItemCount(): Int = userList.size
 
-    class FollowerViewHolder(private val binding: ItemFollowerListBinding) :
+    inner class FollowerViewHolder(private val binding: ItemFollowerListBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun onBind(data: UserData) {
             binding.apply {
@@ -30,6 +31,17 @@ class FollowerAdapter : RecyclerView.Adapter<FollowerAdapter.FollowerViewHolder>
                 tvName.text = data.name
                 tvIntroduction.text = data.introduction
             }
+            itemView.setOnClickListener {
+                itemClickListener.onClick(userList[position])
+            }
         }
+    }
+
+    interface ItemClickListener {
+        fun onClick(data: UserData)
+    }
+
+    fun setItemClickListener(itemClickListener: ItemClickListener) {
+        this.itemClickListener = itemClickListener
     }
 }
