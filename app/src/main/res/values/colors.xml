@@ -9,4 +9,11 @@
     <color name="white">#FFFFFFFF</color>
     <color name="my_color">#E91E63</color>
     <color name="sub_color">#FF9800</color>
+    <color name="pink_pop">#FA79B0</color>
+    <color name="orange">#FAB24C</color>
+    <color name="gray6">#F2F2F2</color>
+    <color name="gray1">#333333</color>
+    <color name="sub_gray">#B5B5B5</color>
+    <color name="pink_power">#F658A6</color>
+    <color name="gray3">#8F9090</color>
 </resources>
