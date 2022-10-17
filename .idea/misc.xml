@@ -5,24 +5,32 @@
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.2958974358974359" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2415" />
+        <entry key="app/src/main/res/drawable/ic_img_github.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2415" />
+        <entry key="app/src/main/res/drawable/selector_bottom_navi.xml" value="0.125" />
         <entry key="app/src/main/res/drawable/shape_bg_button.xml" value="0.2415" />
         <entry key="app/src/main/res/drawable/shape_bg_button2.xml" value="0.1415" />
         <entry key="app/src/main/res/drawable/shape_bg_edit.xml" value="0.212" />
+        <entry key="app/src/main/res/drawable/shape_bg_gray_button.xml" value="0.125" />
         <entry key="app/src/main/res/drawable/shape_bg_sub_button.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/shape_bg_sub_edit.xml" value="0.1415" />
+        <entry key="app/src/main/res/drawable/shpae_bg_orange_button.xml" value="0.125" />
         <entry key="app/src/main/res/layout/activity_detail.xml" value="0.18479614257812507" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.5969268798828126" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.36203866432337434" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.27135467529296875" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.2055084228515625" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.13125" />
+        <entry key="app/src/main/res/layout/fragment_camera.xml" value="0.13072916666666667" />
         <entry key="app/src/main/res/layout/fragment_follower.xml" value="0.15161285400390626" />
         <entry key="app/src/main/res/layout/fragment_follower_list.xml" value="0.26974358974358975" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.13072916666666667" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_repository_list.xml" value="0.2602935791015625" />
         <entry key="app/src/main/res/layout/fragment_sample.xml" value="0.13125" />
         <entry key="app/src/main/res/layout/item_follower_list.xml" value="0.10444793701171884" />
         <entry key="app/src/main/res/layout/item_repository_list.xml" value="0.4616897583007813" />
+        <entry key="app/src/main/res/menu/menu_list.xml" value="0.13125" />
       </map>
     </option>
   </component>

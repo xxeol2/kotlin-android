@@ -23,9 +23,10 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this, "모든 입력 칸을 채워주세요", Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, "로그인 성공", Toast.LENGTH_SHORT).show()
-                Intent(this, ProfileActivity::class.java).apply {
+                Intent(this, MainActivity::class.java).apply {
                     startActivity(this)
                 }
+                finish()
             }
         }
 

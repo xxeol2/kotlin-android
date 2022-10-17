@@ -5,6 +5,7 @@
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryDark">@color/my_color</item>
         <item name="colorAccent">@color/teal_200</item>
+        <item name="android:includeFontPadding">false</item>
         <!-- Customize your theme here. -->
     </style>
 </resources>

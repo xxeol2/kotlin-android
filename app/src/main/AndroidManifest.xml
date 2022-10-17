@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.firstandroid">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.SignUpActivity" />
-        <activity android:name=".view.ProfileActivity" />
+        <activity android:name=".view.MainActivity" />
         <activity
             android:name=".view.DetailActivity"/>
     </application>
